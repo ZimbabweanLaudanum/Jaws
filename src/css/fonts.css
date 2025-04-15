@@ -1,0 +1,12 @@
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald/Oswald-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+}
+@font-face {
+    font-family: "Felipa";
+    src: url("../fonts/Felipa/Felipa-Regular.woff2");
+    font-style: normal;
+    font-weight: 400;
+}

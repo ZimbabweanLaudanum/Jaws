@@ -1,0 +1,103 @@
+@media (max-width: 480px) {
+    p{
+        font-size: 14px;
+    }
+    span{
+        font-size: 14px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    .timepanel{
+        padding-right: 0;
+        justify-content: center;
+    }
+    .navpanel{
+        height: 64px;
+    }
+    .navpanel .navbar {
+        display: none;
+    }
+    .slider{
+        display: none;
+    }
+    .logo{
+        margin-left: 10px;
+        height: 32px;
+    }
+ 
+    .toplogo .name{
+        display: none;
+    }
+    .toplogo img{
+        width: 32px;
+        height: 32px;
+    }
+    .botlogo .botext{
+        display: none;
+    }
+    section{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .teethlow{
+        display: none;
+    }
+    .teethigh .tooth2{
+        display: none;
+    }
+    .teethigh .tooth1{
+        width: 300px;
+        height: auto;
+    }
+    .matter{
+        margin-top: 10px;
+    }
+    .matter li{
+        font-size: 14px;
+    }
+    .matter .sign{
+        margin-top: 10px;
+    }
+    .sidebar{
+        display: none;
+    }
+    .userevieiw{
+        width: 900px;
+    }
+    .infblocks{
+        flex-direction: column;
+    }
+    .infblocks a{
+        margin-top: 30px;
+    }
+    .signfields{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .signing{
+        width: 960px;
+        margin-left: 40px;
+    }
+    .usefull{
+        margin-top: 0;
+    }
+    .doctors{
+        margin-left: 40px;
+    }
+    .docfotos{
+        display: none;
+    }
+    .reviews{
+        display: none;
+    }
+    .contactpanel{
+        display: none;
+    }
+    .mainfoot{
+        padding-left: 40px;
+    }
+    .rightfoot{
+        display: none;
+    }
+}

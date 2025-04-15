@@ -1,0 +1,916 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.oswald {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.felipa-regular {
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.timepanel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 225px;
+    background-color: #F0F8F0;
+    height: 40px;
+    flex-wrap: nowrap;
+}
+a{
+    text-decoration: none;
+}
+a:hover span{
+    color: #009344;
+}
+span {
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+p{
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+.timepanel img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.timepanel span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.timepanel .day{
+    color: #009344;
+}
+
+.navpanel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 120px;
+    background-color: #EBEBEB;
+}
+.logo{
+    margin-left: 348px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 232px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.toplogo{
+    width: fit-content;
+    display: flex;
+}
+.logo img{
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.logo .name{
+    color: #009344;
+    font-size: 40px;
+    font-family: Felipa;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.botlogo .botext{
+    color: #009344;
+    font-size: 16px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.navbar{
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.navbar span{
+    margin-left: 20px;
+    color: black;
+    line-height: 24px;
+}
+.navbar .home{
+    margin-top: 6px;
+}
+.navbar .tel{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.phones p{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.phones a:hover p{
+    color: #009344;
+}
+
+.slider{
+    display: flex;
+    height: 500px;
+    background-color: #EBEBEB;
+    padding-left: 235px;
+    padding-right: 235px;
+    vertical-align: top;
+}
+.slidebt{
+    display: flex;
+    align-items: center;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    margin-left: 77px;
+}
+.txts{
+    width: 727px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.disc{
+    margin: 0;
+    padding-top: 34px;
+    font-size: 64px;
+    color: #009344;
+}
+.discnum{
+    color: #009344;
+    font-size: 180px;
+    height: 160px;
+    line-height: 160px;
+    padding: 0;
+    margin: 0;
+}
+.centext{
+    margin-left: 48px;
+    margin-top: 92px;
+}
+.seal{
+    text-wrap: wrap;
+    vertical-align: top;
+    padding: 0;
+    font-size: 50px;
+    color: #009344;
+    width: 305px;
+}
+.links{
+    display: flex;
+}
+.links div{
+    display: flex;
+    align-items: center;
+}
+.links .writel{
+    padding: 20px;
+    background-color: #009344;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.links a{
+    display: flex;
+    align-items: center;
+}
+.links .write{
+    color: white;
+    margin-right: 10px;
+}
+.links .more{
+    color: #009344;
+    margin-right: 10px;
+}
+.rigbt{
+    width: 460px;
+    margin-right: 62px;
+}
+
+.line{
+    height: 16px;
+    background-color: rgba(0, 147, 69, 0.4);
+}
+
+section{
+    margin-left: 340px;
+    margin-top: 60px;
+    display: flex;
+}
+
+h2{
+    font-size: 48px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+h3{
+    font-size: 24px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+section p{
+    text-align: justify;
+    text-wrap: wrap;
+}
+.main{
+    width: 866px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.white p{
+    margin-bottom: 20px;
+    line-height: 24px;
+    color: #58595B;
+}
+.teeth{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.teethigh{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.teethlow{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.tooth1{
+    margin-right: 16px;
+    margin-bottom: 16px;
+}
+.tooth2{
+    margin-bottom: 16px;
+}
+.tooth3{
+    margin-right: 16px;
+}
+.matter{
+    margin-top: 60px;
+}
+.list{
+    margin-top: 20px;
+    line-height: 24px;
+}
+.matter .con{
+    color: #58595B;
+}
+.writel {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    background-color: rgb(0, 147, 68);
+    margin-right: 30px;
+    border-radius: 20px;
+}
+.writel a{
+    width: max-content;
+    height: max-content;
+}
+
+.sidebar{
+    width: 356px;
+    margin-left: 72px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.matter .col{
+    color: #009344;
+    margin-left: 18px;
+}
+.matter li{
+    color: #009344;
+    font-family: Oswald;
+    font-size: 24px;
+}
+.matter .sign{
+    height: 100px;
+    margin-top: 60px;
+    background-color: #C4C4C4;
+    background: linear-gradient(to left, #EDF6F0, #E7F2FD);
+}
+.sign{
+    display: flex;
+    align-items: center;
+}
+.sign a{
+    margin: auto;
+}
+.sign span{
+    color: white;
+    padding: 10px;
+    background-color: #009344;
+    border-radius: 4px;
+}
+.sign a:hover span{
+    color: white;
+}
+.accord{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.accpoint a{
+    display: flex;
+    align-items: center;
+}
+.accpoint a .plus{
+    margin-left: auto;
+} 
+.accpoint span{
+    margin-left: 14px;
+    color: #58595B;
+}
+
+.child{
+    margin-top: 20px;
+}
+
+
+.action{
+    margin-top: 60px;
+    width: 294px;
+}
+
+.action a{
+    display: flex;
+    width: 294px;
+    height: 346px;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-sizing: border-box;
+    
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+
+.action a:nth-child(2){
+    background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(0, 103, 56, 1) 100%), url("../img/act1.png");
+}
+.action a:nth-child(3){
+    background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(0, 103, 56, 1) 100%), url("../img/act2.png");
+}
+.action a:nth-child(4){
+    background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(0, 103, 56, 1) 100%), url("../img/act3.png");
+}
+.action a:nth-child(5){
+    background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(0, 103, 56, 1) 100%), url("../img/act4.png");
+}
+.act p{
+    color: white;
+    line-height: 24px;
+    display: flex;
+    text-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+}
+.act .more{
+    display: flex;
+    align-items: center;
+}
+.act .more span{
+    color: white;
+    margin-right: 10px;
+}
+
+
+
+.reviews{
+    margin-top: 60px;
+}
+.reviews div{
+    background-color: #F0F8F0;
+    padding-left: 50px;
+    padding-right: 47px;
+    padding-top: 5px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.gret{
+    margin-left: 10px;
+    color: #009344;
+}
+.reviews div span{
+    line-height: 24px;
+}
+.reviews div p{
+    color: #58595B;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.reviews div .fio{
+    margin-right: 10px;
+    color: #58595B;
+}
+.reviews div .date{
+    color: rgba(88, 89, 91, 0.5);
+}
+.show{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+.show a span{
+    color: #009344;
+    margin-right: 20px;
+}
+.show a:hover span{
+    color: #009344;
+}
+.usereview{
+    margin-top: 60px;
+}
+.usereview p{
+    line-height: 24px;
+    color: #58595B;
+}
+.rowfield span{
+    color: rgba(0,0,0,0.6);
+}
+.rowfield .tbox{
+    margin-right: 20px;
+}
+
+.fields{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.fields .colfields{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 5px;
+}
+.fields .textbox{
+    margin-top: 5px;
+}
+.rowfield{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.signfields .writel .write {
+    color: white;
+}
+.tbox{
+    display: flex;
+    flex-direction: row;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(0, 147, 68, 0.5);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+.tbox img{
+    width: 16px;
+    margin-right: 10px;
+}
+input{
+    font-size: 24px;
+    width: 240px;
+    border-width: 0px;
+}
+input::placeholder{
+    color: #C4C4C4;
+    font-family: Oswald;
+    font-size: 24px;
+}
+select {
+    color: #C4C4C4;
+    font-family: Oswald;
+    font-size: 24px;
+    width: 266px;
+    line-height: 24px;
+    height: 32px;
+    border-color: white;
+}
+
+select option{
+    line-height: 24px;
+    color: #009344;
+}
+select option:first-child{
+    color: #C4C4C4;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 900px;
+}
+.textbox span{
+    color: rgba(0,0,0,0.6);
+}
+.textbox textarea {
+    width: 880px;
+    height: 280px;
+    text-wrap: wrap;
+    border: 0;
+    font-family: Oswald;
+    font-size: 24px;
+
+}
+
+.textbox textarea::placeholder{
+    padding-top: 140px;
+    font-family: Oswald;
+    font-size: 24px;
+    text-align: center;
+    color: #C4C4C4;
+}
+.chk {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.check {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+.chk p {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0px;
+}
+.usefull {
+    display: flex
+;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    width: 1224px;
+}
+.usefull p {
+    margin-top: 30px;
+    text-align: center;
+    color: rgb(88, 89, 91);
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.usereview .writel{
+    padding: 20px;
+    margin: 0;
+}
+.usereview .writel span{
+    margin-right: 10px;
+    color: white;
+}
+.usereview a{
+    display: flex;
+    width: min-content;
+}
+.infblocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.bl1 {
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 103, 56) 100%), linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 0, 0) 100%), url(../img/bl1.png);
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.artic{
+    margin-top: 30px;
+    background-color: #FF0000;
+    width: 120px;
+    text-align: center;
+}
+.infblocks a span {
+    color: white;
+}
+.bltxt {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 15px;
+    justify-items: end;
+}
+.bltxt p {
+    text-align: left;
+    color: white;
+    margin: 0px;
+}
+.datelink {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.infblocks a .datelink span {
+    color: rgba(255, 255, 255, 0.7);
+}
+.bl2 {
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(37, 75, 104) 100%), linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(0, 103, 56) 80%), url(../img/bl2.png);
+    margin-right: 20px;
+    border-radius: 20px;
+}
+.events{
+    margin-top: 30px;
+    background-color: #00579F;
+    width: 120px;
+    text-align: center;
+}
+.bl3 {
+    display: flex;
+    flex-direction: column;
+    width: 398px;
+    height: 440px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5) 100%), linear-gradient(rgba(0, 0, 0, 0) 50%, rgb(189, 130, 98) 100%), url(../img/bl3.png);
+    border-radius: 20px;
+}
+.news{
+    margin-top: 30px;
+    background-color: #7BB058;
+    width: 120px;
+    text-align: center;
+}
+.lin {
+    margin-top: 20px;
+}
+.lin span {
+    color: black;
+    padding: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-radius: 20px;
+    border-color: rgb(0, 147, 68);
+}
+.signing {
+    display: flex;
+    flex-direction: column;
+    margin-left: 340px;
+    margin-top: 60px;
+    width: 1224px;
+    align-items: center;
+}
+.signing p{
+    margin-bottom: 50px;
+}
+.signing h2 {
+    margin-bottom: 20px;
+}
+.signfields {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    
+}
+.signame {
+    margin-right: 16px;
+}
+.signfields span {
+    color: rgba(0, 0, 0, 0.6);
+}
+.signame .tbox{
+    padding: 20px;
+}
+.signame .tbox input {
+    width: 360px;
+}
+.signphone {
+    margin-right: 16px;
+    
+}
+.signphone .tbox{
+    padding: 20px;
+}
+.signphone .tbox input{
+    width: 300px;
+}
+.signfields .tbox {
+    color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+}
+.signfields .writel{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 20px;
+}
+.signfields .writel .write{
+    margin-right: 10px;
+    color: white;
+}
+.doctors {
+    display: flex;
+    flex-direction: column;
+    margin-left: 340px;
+    margin-top: 60px;
+    width: 1224px;
+    align-items: center;
+}
+.doctors h2 {
+    margin-bottom: 30px;
+}
+.doctors p {
+    text-align: center;
+    line-height: 24px;
+    color: rgb(88, 89, 91);
+    text-wrap: wrap;
+    margin-bottom: 20px;
+}
+.shpage {
+    display: flex;
+    align-items: center;
+    width: 1224px;
+    height: 442px;
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    border-color: rgb(204, 233, 218);
+    border-radius: 20px;
+    padding: 20px;
+    box-sizing:border-box;
+}
+.shpak{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.shpaktxt {
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+.shpaktxt .shpaname {
+    color: rgb(0, 147, 68);
+    font-size: 48px;
+}
+.shpakinfo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.shp {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.shpakinfo a{
+    display: flex;
+    width: min-content;
+}
+.shpakinfo .writel{
+    margin-right: 0;
+    margin-top: 10px;
+    padding: 20px;
+    width: 300px;
+    box-sizing:border-box;
+    display: block;
+    width: max-content;
+}
+.shpakinfo .writel span{
+    margin-right: 10px;
+    color: white;
+}
+.shpakinfo a:hover .writel span{
+    color: white;
+}
+.docfotos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 16px;
+    width: 1224px;
+    justify-content: space-between;
+}
+.contactpanel {
+    margin-top: 60px;
+    padding-left: 340px;
+    background-color: rgb(36, 38, 39);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.num1 {
+    margin-right: 16px;
+}
+.contactpanel a span {
+    color: white;
+}
+.num2 {
+    margin-right: 80px;
+}
+.rev {
+    margin-right: 106px;
+}
+.sig {
+    margin-right: 120px;
+}
+.friend {
+    margin-right: 60px;
+}
+.tel {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mainfoot {
+    display: flex;
+    height: 550px;
+    padding-left: 340px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/back.png);
+}
+.leftfoot {
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+}
+.leftfoot a {
+    width: 232px;
+}
+.leftfoot .logo {
+    margin: 60px 0px 0px;
+}
+.leftfoot span {
+    margin-top: 30px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 10px;
+}
+.leftfoot p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    margin-bottom: 100px;
+    text-wrap: wrap;
+}
+.nava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nava a {
+    margin-right: 20px;
+}
+.rightfoot {
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.rightfoot p {
+    color: rgba(153, 153, 153, 0.5);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ph img {
+    width: 36px;
+}
+.ph span {
+    margin-left: 20px;
+    color: rgb(153, 153, 153);
+}
+.mir {
+    margin-left: 148px;
+}

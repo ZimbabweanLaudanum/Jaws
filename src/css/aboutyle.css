@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.oswald {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.felipa-regular {
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.timepanel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 225px;
+    background-color: #F0F8F0;
+    height: 40px;
+    flex-wrap: nowrap;
+}
+a{
+    text-decoration: none;
+}
+a:hover span{
+    color: #009344;
+}
+span {
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+p{
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+.timepanel img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.timepanel span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.timepanel .day{
+    color: #009344;
+}
+
+.navpanel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 120px;
+    background-color: #EBEBEB;
+}
+.logo{
+    margin-left: 348px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 232px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.toplogo{
+    width: fit-content;
+    display: flex;
+}
+.logo img{
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.logo .name{
+    color: #009344;
+    font-size: 40px;
+    font-family: Felipa;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.botlogo .botext{
+    color: #009344;
+    font-size: 16px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.navbar{
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.navbar span{
+    margin-left: 20px;
+    color: black;
+    line-height: 24px;
+}
+.navbar .home{
+    margin-top: 6px;
+}
+.navbar .tel{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.phones p{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.phones a:hover p{
+    color: #009344;
+}
+
+section{
+    margin-left: 340px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    width: 1224px;
+}
+
+h2{
+    font-size: 48px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+h3{
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+section p{
+    text-align: justify;
+    text-wrap: wrap;
+    color: #58595B;
+}
+.speci{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.pari{
+    display: flex;
+    flex-direction: column;
+}
+.speci p{
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.devices{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    font-family: "Oswald";
+    font-size: 24px;
+    color: #009344;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+section img{
+    border-radius: 20px;
+    border: 2px solid;
+    border-color: #009344;
+    width: 300px;
+    height: 400px;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.services img{
+    margin-right: 60px;
+}
+.list p{
+    margin-bottom: 30px;
+}
+.citis{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+.citis p{
+    margin-right: 30px;
+}
+
+.contactpanel {
+    margin-top: 60px;
+    padding-left: 340px;
+    background-color: rgb(36, 38, 39);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.num1 {
+    margin-right: 16px;
+}
+.contactpanel a span {
+    color: white;
+}
+.num2 {
+    margin-right: 80px;
+}
+.rev {
+    margin-right: 106px;
+}
+.sig {
+    margin-right: 120px;
+}
+.friend {
+    margin-right: 60px;
+}
+.tel {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mainfoot {
+    display: flex;
+    height: 550px;
+    padding-left: 340px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/back.png);
+}
+.leftfoot {
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+}
+.leftfoot a {
+    width: 232px;
+}
+.leftfoot .logo {
+    margin: 60px 0px 0px;
+}
+.leftfoot span {
+    margin-top: 30px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 10px;
+}
+.leftfoot p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    margin-bottom: 100px;
+    text-wrap: wrap;
+}
+.nava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nava a {
+    margin-right: 20px;
+}
+.rightfoot {
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.rightfoot p {
+    color: rgba(153, 153, 153, 0.5);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ph img {
+    width: 36px;
+}
+.ph span {
+    margin-left: 20px;
+    color: rgb(153, 153, 153);
+}
+.mir {
+    margin-left: 148px;
+}

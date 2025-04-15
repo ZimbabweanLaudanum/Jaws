@@ -1,0 +1,399 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.oswald {
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.felipa-regular {
+    font-family: "Felipa", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.timepanel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 225px;
+    background-color: #F0F8F0;
+    height: 40px;
+    flex-wrap: nowrap;
+}
+a{
+    text-decoration: none;
+}
+a:hover span{
+    color: #009344;
+}
+span {
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+p{
+    font-family: Oswald;
+    font-size: 24px;
+    text-wrap: nowrap;
+}
+.timepanel img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.timepanel span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.timepanel .day{
+    color: #009344;
+}
+
+.navpanel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 120px;
+    background-color: #EBEBEB;
+}
+.logo{
+    margin-left: 348px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 232px;
+    height: 96px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.toplogo{
+    width: fit-content;
+    display: flex;
+}
+.logo img{
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.logo .name{
+    color: #009344;
+    font-size: 40px;
+    font-family: Felipa;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.botlogo .botext{
+    color: #009344;
+    font-size: 16px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.navbar{
+    margin-left: 270px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.navbar span{
+    margin-left: 20px;
+    color: black;
+    line-height: 24px;
+}
+.navbar .home{
+    margin-top: 6px;
+}
+.navbar .tel{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.phones p{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.phones a:hover p{
+    color: #009344;
+}
+
+.slider{
+    display: flex;
+    height: 500px;
+    background-color: #EBEBEB;
+    padding-left: 235px;
+    padding-right: 235px;
+    vertical-align: top;
+}
+.slidebt{
+    display: flex;
+    align-items: center;
+}
+.slide{
+    display: flex;
+    flex-direction: column;
+    margin-left: 77px;
+}
+.txts{
+    width: 727px;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.disc{
+    margin: 0;
+    padding-top: 34px;
+    font-size: 64px;
+    color: #009344;
+}
+.discnum{
+    color: #009344;
+    font-size: 180px;
+    height: 160px;
+    line-height: 160px;
+    padding: 0;
+    margin: 0;
+}
+.centext{
+    margin-left: 48px;
+    margin-top: 92px;
+}
+.seal{
+    text-wrap: wrap;
+    vertical-align: top;
+    padding: 0;
+    font-size: 50px;
+    color: #009344;
+    width: 305px;
+}
+.links{
+    display: flex;
+}
+.links div{
+    display: flex;
+    align-items: center;
+}
+.links .writel{
+    padding: 20px;
+    background-color: #009344;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+.links a{
+    display: flex;
+    align-items: center;
+}
+.links .write{
+    color: white;
+    margin-right: 10px;
+}
+.links .more{
+    color: #009344;
+    margin-right: 10px;
+}
+.rigbt{
+    width: 460px;
+    margin-right: 62px;
+}
+
+.line{
+    height: 16px;
+    background-color: rgba(0, 147, 69, 0.4);
+}
+
+section{
+    margin-left: 340px;
+    margin-top: 60px;
+    display: flex;
+}
+
+h2{
+    font-size: 48px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+h3{
+    font-size: 24px;
+    font-family: Oswald;
+    text-wrap: nowrap;
+}
+section p{
+    text-align: justify;
+    text-wrap: wrap;
+}
+
+.addres{
+    margin-top: 30px;
+}
+.addres p{
+    color: rgba(0, 0, 0, 0.6);
+}
+select{
+    font-family: Oswald;
+    font-size: 24px;
+    color: #C4C4C4;
+    border: none;
+}
+option{
+    font-family: Oswald;
+    font-size: 24px;
+    color: black;
+}
+select option:first-child{
+    color: #C4C4C4;
+}
+.addcon{
+    width: 290px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: #009344, solid, 2px;
+    border-radius: 5px;
+}
+.docards{
+    display: flex;
+    flex-direction: row;
+    width: 1280px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    width: 614px;
+    height: 304px;
+    
+}
+.card:nth-child(odd){
+    margin: 0 30px 30px 0;
+}
+.caright{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+.cardtext{
+    
+    display: flex;
+    flex-direction: column;
+}
+.cardtext p{
+    color: #58595B;
+}
+.writel{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-self: end;
+    background-color: #009344;
+    border-radius: 20px;
+}
+.writel .write{
+    margin-right: 10px;
+    color: white;
+}
+.docimg{
+    height: 304px;
+}
+
+.contactpanel {
+    margin-top: 60px;
+    padding-left: 340px;
+    background-color: rgb(36, 38, 39);
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.num1 {
+    margin-right: 16px;
+}
+.contactpanel a span {
+    color: white;
+}
+.num2 {
+    margin-right: 80px;
+}
+.rev {
+    margin-right: 106px;
+}
+.sig {
+    margin-right: 120px;
+}
+.friend {
+    margin-right: 60px;
+}
+.tel {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mainfoot {
+    display: flex;
+    height: 550px;
+    padding-left: 340px;
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/back.png);
+}
+.leftfoot {
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+}
+.leftfoot a {
+    width: 232px;
+}
+.leftfoot .logo {
+    margin: 60px 0px 0px;
+}
+.leftfoot span {
+    margin-top: 30px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 10px;
+}
+.leftfoot p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    margin-bottom: 100px;
+    text-wrap: wrap;
+}
+.nava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nava a {
+    margin-right: 20px;
+}
+.rightfoot {
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.rightfoot p {
+    color: rgba(153, 153, 153, 0.5);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ph img {
+    width: 36px;
+}
+.ph span {
+    margin-left: 20px;
+    color: rgb(153, 153, 153);
+}
+.mir {
+    margin-left: 148px;
+}
