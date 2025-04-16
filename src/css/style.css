@@ -760,7 +760,7 @@ select option:first-child{
 .shpage {
     display: flex;
     align-items: center;
-    width: 1224px;
+    width: 1160px;
     height: 442px;
     border-width: 2px;
     border-style: solid;
