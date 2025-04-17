@@ -17,7 +17,7 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 225px;
+    padding-right: 300px;
     background-color: #F0F8F0;
     height: 40px;
     flex-wrap: nowrap;
@@ -57,13 +57,18 @@ p{
     flex-wrap: nowrap;
     height: 120px;
     background-color: #EBEBEB;
+    justify-content: space-between;
+    
 }
-.logo{
-    margin-left: 348px;
+.navpanel .alogo{
     margin-top: 12px;
     margin-bottom: 12px;
     width: 232px;
     height: 96px;
+    margin-left: 300px;
+}
+.logo{
+   
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -96,7 +101,7 @@ p{
 }
 
 .navbar{
-    margin-left: 270px;
+    margin-right: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -209,7 +214,8 @@ p{
 }
 
 section{
-    margin-left: 340px;
+    width: 1300px;
+    justify-self: center;
     margin-top: 60px;
     display: flex;
 }
@@ -569,12 +575,11 @@ select option:first-child{
     margin: 0px;
 }
 .usefull {
-    display: flex
-;
+    display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 60px;
-    width: 1224px;
+    
 }
 .usefull p {
     margin-top: 30px;
@@ -684,7 +689,7 @@ select option:first-child{
 .signing {
     display: flex;
     flex-direction: column;
-    margin-left: 340px;
+    
     margin-top: 60px;
     width: 1224px;
     align-items: center;
@@ -742,7 +747,7 @@ select option:first-child{
 .doctors {
     display: flex;
     flex-direction: column;
-    margin-left: 340px;
+    
     margin-top: 60px;
     width: 1224px;
     align-items: center;
