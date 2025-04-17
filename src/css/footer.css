@@ -1,0 +1,88 @@
+.contactback{
+    background-color: rgb(36, 38, 39);
+}
+.contactpanel {
+    margin-top: 60px;
+    justify-content: space-between;
+    height: 60px;
+    width: 1224px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+}
+
+.contactpanel a span {
+    color: white;
+}
+
+.tel {
+    margin-top: 10px;
+    
+}
+.footback{
+    background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url(../img/back.png);
+}
+.mainfoot {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 1224px;
+    justify-self: center;
+    justify-content: space-between;
+}
+.leftfoot {
+    display: flex;
+    flex-direction: column;
+    width: 582px;
+}
+.leftfoot a {
+    width: 232px;
+}
+.leftfoot .logo {
+    margin: 60px 0px 0px;
+}
+.leftfoot span {
+    margin-top: 30px;
+    color: rgb(153, 153, 153);
+    margin-bottom: 10px;
+}
+.leftfoot p {
+    color: rgb(153, 153, 153);
+    font-size: 16px;
+    
+    text-wrap: wrap;
+}
+.nava {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 100px;
+}
+.nava a {
+    margin-right: 20px;
+}
+.rightfoot {
+    margin-top: 100px;
+    
+}
+.rightfoot p {
+    color: rgba(153, 153, 153, 0.5);
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.ph {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.ph img {
+    width: 36px;
+}
+.ph span {
+    margin-left: 20px;
+    color: rgb(153, 153, 153);
+}
+.mir {
+    margin-left: 148px;
+}

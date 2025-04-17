@@ -1,0 +1,102 @@
+.timepanel{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 300px;
+    background-color: #F0F8F0;
+    height: 40px;
+    flex-wrap: nowrap;
+}
+.timepanel img{
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.timepanel span{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.timepanel .day{
+    color: #009344;
+}
+.navback{
+    background-color: #EBEBEB;
+}
+.navpanel{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 120px;
+    width: 1300px;
+    justify-content: space-between;
+    justify-self: center;
+    
+}
+.navpanel .alogo{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 232px;
+    height: 96px;
+    
+}
+.logo{
+   
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.toplogo{
+    width: fit-content;
+    display: flex;
+}
+.logo img{
+    width: 64px;
+    height: 64px;
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.logo .name{
+    color: #009344;
+    font-size: 40px;
+    font-family: Felipa;
+    height: 51px;
+    margin: 0;
+    padding: 0;
+    margin-top: 22px;
+    margin-left: 22px;
+}
+.botlogo .botext{
+    color: #009344;
+    font-size: 16px;
+    height: 22px;
+    margin-left: 8px;
+}
+
+.navbar{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.navbar span{
+    margin-left: 20px;
+    color: black;
+    line-height: 24px;
+}
+.navbar .home{
+    margin-top: 6px;
+}
+.navbar .tel{
+    margin-top: 8px;
+    margin-left: 20px;
+}
+.phones p{
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-left: 20px;
+}
+.phones a:hover p{
+    color: #009344;
+}
