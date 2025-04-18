@@ -71,6 +71,6 @@
 }
 
 .carousel-dot.active {
-    background: hsl(var(--primary));
+    background: #009344;
     width: 24px;
 }

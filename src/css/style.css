@@ -160,15 +160,12 @@ section p{
     flex-direction: column;
     justify-content: flex-end;
     box-sizing: border-box;
-    
     padding-left: 30px;
     padding-right: 30px;
     padding-bottom: 20px;
     margin-top: 20px;
     border-radius: 20px;
 }
-
-
 
 .action a:nth-child(2){
     background-image: linear-gradient(rgba(0,0,0,0) 50%, rgba(0, 103, 56, 1) 100%), url("../img/act1.png");
@@ -199,8 +196,6 @@ section p{
     color: white;
     margin-right: 10px;
 }
-
-
 
 .reviews{
     margin-top: 60px;
@@ -256,6 +251,8 @@ section p{
     color: rgba(0,0,0,0.6);
 }
 .rowfield .tbox{
+    position: relative;
+    width: 300px;
     margin-right: 20px;
 }
 

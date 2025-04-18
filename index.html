@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/carousel.css">
     <link rel="stylesheet" href="src/css/accordion.css">
+    <link rel="stylesheet" href="src/css/select.css">
     <title>JAWS main page</title>
 </head>
 <body>
@@ -123,24 +124,59 @@
               <div class="rowfield">
                 <span>Врач</span>
                 <div class="tbox">
-                  <select name="docs">
-                    <option value="choose">Выберите врача</option>
-                    <option value="shpak">Шпак А.Г.</option>
-                    <option value="milka">Милова Т.Ю.</option>
-                    <option value="longa">Длинная К.Н.</option>
-                    <option value="pav">Павлов И.Г.</option>
-                  </select>
+                  <button class="select-trigger" id="select-trigger" data-state="closed">
+                    <span>Выберите врача</span>
+                    <svg 
+                        class="select-icon"
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round"
+                    >
+                        <path d="m6 9 6 6 6-6"/>
+                    </svg>
+                  </button>
+                
+                  <div class="select-content" id="select-content">
+                    <div class="select-item" data-value="1">Шпак А.Г.</div>
+                    <div class="select-item" data-value="2">Милова Т.Ю.</div>
+                    <div class="select-item" data-value="3">Длинная К.Н.</div>
+                    <div class="select-item" data-value="4">Павлов И.Г.</div>
+                  </div>
                 </div>
               </div>
               <div class="rowfield">
                 <span>Услуга</span>
                 <div class="tbox">
-                  <select name="serv">
-                    <option value="choose">Выберите услугу</option>
-                    <option value="white">Отбеливание</option>
-                    <option value="seal">Пломбирование</option>
-                    <option value="clean">Профессиональная чистка</option>
-                  </select>
+                  <button class="select-trigger" id="select-trigger" data-state="closed">
+                    <span>Выберите услугу</span>
+                    <svg 
+                        class="select-icon"
+                        xmlns="http://www.w3.org/2000/svg" 
+                        width="24" 
+                        height="24" 
+                        viewBox="0 0 24 24" 
+                        fill="none" 
+                        stroke="currentColor" 
+                        stroke-width="2" 
+                        stroke-linecap="round" 
+                        stroke-linejoin="round"
+                    >
+                        <path d="m6 9 6 6 6-6"/>
+                    </svg>
+                  </button>
+                
+                  <div class="select-content" id="select-content">
+                    <div class="select-item" data-value="1">Отбеливание</div>
+                    <div class="select-item" data-value="2">Пломбирование</div>
+                    <div class="select-item" data-value="3">Профессиональная чистка</div>
+                    <div class="select-item" data-value="4">Удаление зуба</div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -511,5 +547,6 @@
 
   <script src="src/scripts/carousel.js"></script>
   <script src="src/scripts/accordion.js"></script>
+  <script src="src/scripts/select.js"></script>
 </body>
 </html>
