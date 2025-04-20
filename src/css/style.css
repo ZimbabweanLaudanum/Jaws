@@ -247,13 +247,16 @@ section p{
     line-height: 24px;
     color: #58595B;
 }
+.rowfield:nth-child(1){
+    margin-right: 20px;
+}
 .rowfield span{
     color: rgba(0,0,0,0.6);
 }
 .rowfield .tbox{
     position: relative;
     width: 300px;
-    margin-right: 20px;
+    
 }
 
 .fields{
@@ -297,6 +300,7 @@ section p{
     margin-right: 10px;
 }
 input{
+    font-family: "Oswald";
     font-size: 24px;
     width: 240px;
     border-width: 0px;
@@ -367,6 +371,13 @@ select option:first-child{
     font-size: 16px;
     line-height: 16px;
     margin: 0px;
+}
+.perstext{
+    display: flex;
+    flex-direction: column;
+}
+.pers:nth-child(2){
+    display: none;
 }
 .usefull {
     display: flex;

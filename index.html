@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/fonts.css">
     <link rel="stylesheet" href="src/css/style.css">
-    <link rel="stylesheet" href="src/css/media.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/carousel.css">
     <link rel="stylesheet" href="src/css/accordion.css">
     <link rel="stylesheet" href="src/css/select.css">
+    <link rel="stylesheet" href="src/css/burger.css">
+    <link rel="stylesheet" href="src/css/media.css">
+    
     <title>JAWS main page</title>
 </head>
 <body>
@@ -49,7 +51,24 @@
             <a href="#"><p>+7(929) 668-15-99</p></a>
           </div>
         </div>
+        <button class="burgerbutt" aria-label="Меню">
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+        </button>
+        <nav class="menu">
+          <ul class="menulist">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="#">Клиники</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="doctors.html">Врачи</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
+      
     </div>
   </header>
         
@@ -188,9 +207,12 @@
           </div>
           <div class="chk">
             <img class="check" src="src/icons/Rectangle 40.svg" alt="checkbox">
-            <p>Нажимая кнопку «Отправить отзыв», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</p>
+            <div class="perstext">
+              <p class="pers">Нажимая кнопку «Отправить отзыв», я даю свое согласие на обработку моих персональных данных, в соответствии с Федеральным законом от 27.07.2006 года №152-ФЗ «О персональных данных», на условиях и для целей, определенных в Согласии на обработку персональных данных.</p>
+              <p class="pers ">Согласие на обработку персональных данных</p>
+            </div>
           </div>
-          <a href="#"><div class="writel"><span class="write">ОТПРАВИТЬ ОТЗЫВ  </span><img src="src/icons/стрелка.svg" alt="arrow"></div></a>
+          <a href="#"><div class="writel"><span class="write">ОТПРАВИТЬ ОТЗЫВ</span><img src="src/icons/стрелка.svg" alt="arrow"></div></a>
         </div>
     </div>
     <div class="sidebar">
@@ -545,6 +567,7 @@
     </div>
   </footer>
 
+  <script src="src/scripts/burger.js"></script>
   <script src="src/scripts/carousel.js"></script>
   <script src="src/scripts/accordion.js"></script>
   <script src="src/scripts/select.js"></script>

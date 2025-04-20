@@ -17,7 +17,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0.75rem 1rem;
     border: none;
     background-color: hsl(var(--background));
     color: #c4c4c4;
@@ -34,7 +33,9 @@
 .select-trigger[data-state="open"] {
     box-shadow: 0 0 0 2px hsl(var(--primary) / 0.2);
 }
-
+.select-trigger span{
+    color: #c4c4c4;
+}
 .select-icon {
     width: 1rem;
     height: 1rem;
