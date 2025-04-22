@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="src/css/footer.css">
     <link rel="stylesheet" href="src/css/carousel.css">
     <link rel="stylesheet" href="src/css/accordion.css">
-    <link rel="stylesheet" href="src/css/select.css">
     <link rel="stylesheet" href="src/css/burger.css">
     <link rel="stylesheet" href="src/css/media.css">
     
@@ -143,59 +142,25 @@
               <div class="rowfield">
                 <span>Врач</span>
                 <div class="tbox">
-                  <button class="select-trigger" id="select-trigger" data-state="closed">
-                    <span>Выберите врача</span>
-                    <svg 
-                        class="select-icon"
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="24" 
-                        height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round"
-                    >
-                        <path d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                
-                  <div class="select-content" id="select-content">
-                    <div class="select-item" data-value="1">Шпак А.Г.</div>
-                    <div class="select-item" data-value="2">Милова Т.Ю.</div>
-                    <div class="select-item" data-value="3">Длинная К.Н.</div>
-                    <div class="select-item" data-value="4">Павлов И.Г.</div>
-                  </div>
+                  <select name="seldocs" id="seldocs">
+                    <option value="" disabled selected hidden>Выберите врача</option>
+                    <option value="1">Шпак А.Г.</option>
+                    <option value="2">Милова Т.Ю.</option>
+                    <option value="3">Длинная К.Н.</option>
+                    <option value="4">Павлов И.Г.</option>
+                  </select>
                 </div>
               </div>
               <div class="rowfield">
                 <span>Услуга</span>
                 <div class="tbox">
-                  <button class="select-trigger" id="select-trigger" data-state="closed">
-                    <span>Выберите услугу</span>
-                    <svg 
-                        class="select-icon"
-                        xmlns="http://www.w3.org/2000/svg" 
-                        width="24" 
-                        height="24" 
-                        viewBox="0 0 24 24" 
-                        fill="none" 
-                        stroke="currentColor" 
-                        stroke-width="2" 
-                        stroke-linecap="round" 
-                        stroke-linejoin="round"
-                    >
-                        <path d="m6 9 6 6 6-6"/>
-                    </svg>
-                  </button>
-                
-                  <div class="select-content" id="select-content">
-                    <div class="select-item" data-value="1">Отбеливание</div>
-                    <div class="select-item" data-value="2">Пломбирование</div>
-                    <div class="select-item" data-value="3">Профессиональная чистка</div>
-                    <div class="select-item" data-value="4">Удаление зуба</div>
-                  </div>
+                  <select name="seldocs" id="seldocs">
+                    <option value="" disabled selected hidden>Выберите услугу</option>
+                    <option value="1">Отбеливание</option>
+                    <option value="2">Пломбирование</option>
+                    <option value="3">Профессиональная чистка</option>
+                    <option value="4">Удаление зуба</option>
+                  </select>
                 </div>
               </div>
             </div>
@@ -570,6 +535,5 @@
   <script src="src/scripts/burger.js"></script>
   <script src="src/scripts/carousel.js"></script>
   <script src="src/scripts/accordion.js"></script>
-  <script src="src/scripts/select.js"></script>
 </body>
 </html>

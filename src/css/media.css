@@ -8,6 +8,9 @@
     h2{
         font-size: 20px;
     }
+    h3{
+        font-size: 16px;
+    }
     .timepanel{
         padding-right: 0;
         justify-content: center;
@@ -136,17 +139,27 @@
         justify-self: center;
     }
     input{
+        height: min-content;
         font-size: 14px;
     }
+    
     input::placeholder{
         font-size: 14px;
     }
+    .tbox img{
+        height: 16px;
+    }
+    .fieldcon img{
+        height: 16px;
+    }
     .textbox{
         align-self: center;
-        width: 324px;
+        width: 100%;
     }
+
     .textbox textarea{
         font-size: 14px;
+        width: 100%;
     }
     textarea::placeholder{
         font-size: 14px;
@@ -269,5 +282,132 @@
     .menu{
         display: block;
     }
-    
+
+    .speci{
+        margin-top: 10px;
+    }
+    section img{
+        width: auto;
+        height: 200px;
+    }
+    .speci p{
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .devices{
+        margin-top: 10px;
+    }
+    .list{
+        margin-right: 10px;
+    }
+    .list p{
+        margin-bottom: 10px;
+    }
+    li{
+        font-size: 14px;
+        list-style-type: none;
+    }
+    .services{
+        margin-top: 10px;
+    }
+    .services img{
+        margin-right: 10px;
+    }
+    .citis{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .citis p{
+        margin-right: 10px;
+    }
+
+    .doubleblock{
+        flex-direction: column;
+    }
+    .serblock{
+        width: auto;
+        margin-top: 10px;
+    }
+    .serblock img{
+        width: 160px;
+        height: 160px;
+        margin-right: 10px;
+    }
+    li a{
+        font-size: 14px;
+    }
+    .adult{
+        margin-bottom: 10px;
+    }
+    .addres{
+        margin-top: 10px;
+    }
+    select{
+        font-size: 14px;
+    }
+    option{
+        font-size: 14px;
+    }
+    .docards{
+        width: auto;
+    }
+    .writel{
+        padding: 10px;
+    }
+    .writel img{
+        margin: 0 10px 0 auto;
+        height: auto;
+    }
+    .writel span{
+        margin: 0;
+    }
+
+    .card p{
+        display: flex;
+    }
+    .docards{
+        margin-top: 10px;
+    }
+    .card:nth-child(odd){
+        margin: 0 0 20px 0;
+    }
+    .card{
+        width: auto;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .caright{
+        margin-left: 10px;
+    }
+    .docimg{
+        height: auto;
+    }
+    .docimg img{
+        height: 160px;
+    }
+    .addcon{
+        width: min-content;
+    }
+
+    .sign{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .signfields{
+        margin-right: 10px;
+    }
+    .fieldcon{
+        width: 100%;
+        height: min-content;
+    }
+    .signfo{
+        display: none;
+    }
+    .fieldbl{
+        margin-top: 10px;
+    }
+    textarea{
+        font-size: 14px;
+    }
 }

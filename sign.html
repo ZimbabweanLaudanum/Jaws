@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/fonts.css">
     <link rel="stylesheet" href="src/css/sign.css">
-    <link rel="stylesheet" href="src/css/media.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/footer.css">
-    <title>JAWS main page</title>
+    <link rel="stylesheet" href="src/css/burger.css">
+    <link rel="stylesheet" href="src/css/media.css">
+    <title>JAWS sign page</title>
 </head>
 <body>
   <header>
@@ -46,7 +47,24 @@
             <a href="#"><p>+7(929) 668-15-99</p></a>
           </div>
         </div>
+        <button class="burgerbutt" aria-label="Меню">
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+        </button>
+        <nav class="menu">
+          <ul class="menulist">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="#">Клиники</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="doctors.html">Врачи</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
+      
     </div>
   </header>
         
@@ -58,7 +76,7 @@
           <p>Адрес клиники</p>
           <div class="fieldcon">
             <select name="sel" id="">
-              <option value="add">Выберите адрес клиники</option>
+              <option value="" disabled selected hidden>Выберите адрес клиники</option>
               <option value="add">ул. 1-я Красноармейская д.32</option>
               <option value="add">ул. Круно д. 5</option>
               <option value="add">ул. Вано д. 13</option>
@@ -70,7 +88,7 @@
           <p>Услуга</p>
           <div class="fieldcon">
             <select name="sel" id="">
-              <option value="add">Выберите услугу</option>
+              <option value="" disabled selected hidden>Выберите услугу</option>
               <option value="add">Консультация</option>
               <option value="add">Установка пломбы</option>
               <option value="add">Установка брекетов</option>
@@ -82,7 +100,7 @@
           <p>Врач</p>
           <div class="fieldcon">
             <select name="sel" id="">
-              <option value="add">Выберите врача</option>
+              <option value="" disabled selected hidden>Выберите врача</option>
               <option value="add">Шпак А.Д.</option>
               <option value="add">Михайлов Г.В.</option>
               <option value="add">Трепин К.А.</option>
@@ -194,5 +212,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="src/scripts/burger.js"></script>
 </body>
 </html>

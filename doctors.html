@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/css/fonts.css">
     <link rel="stylesheet" href="src/css/doctors.css">
-    <link rel="stylesheet" href="src/css/media.css">
     <link rel="stylesheet" href="src/css/header.css">
     <link rel="stylesheet" href="src/css/footer.css">
-    <title>JAWS main page</title>
+    <link rel="stylesheet" href="src/css/burger.css">
+    <link rel="stylesheet" href="src/css/media.css">
+    <title>JAWS doctors page</title>
 </head>
 <body>
   <header>
@@ -46,7 +47,24 @@
             <a href="#"><p>+7(929) 668-15-99</p></a>
           </div>
         </div>
+        <button class="burgerbutt" aria-label="Меню">
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+          <span class="burgerbuttline"></span>
+        </button>
+        <nav class="menu">
+          <ul class="menulist">
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="about.html">О компании</a></li>
+            <li><a href="#">Клиники</a></li>
+            <li><a href="services.html">Услуги</a></li>
+            <li><a href="doctors.html">Врачи</a></li>
+            <li><a href="#">Цены</a></li>
+            <li><a href="#">Контакты</a></li>
+          </ul>
+        </nav>
       </div>
+      
     </div>
   </header>
         
@@ -57,7 +75,7 @@
         <p>Адрес клиники</p>
         <div class="addcon">
           <select name="addresses" id="">
-            <option value="add">Выберите адрес клиники</option>
+            <option value="" disabled selected hidden>Выберите адрес клиники</option>
             <option value="add">ул. 1-я Красноармейская д.32</option>
             <option value="add">ул. Круно д. 5</option>
             <option value="add">ул. Вано д. 13</option>
@@ -219,5 +237,7 @@
       </div>
     </div>
   </footer>
+
+  <script src="src/scripts/burger.js"></script>
 </body>
 </html>
